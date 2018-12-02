@@ -1,20 +1,20 @@
 # How to deploy your web app to Google Cloud via GitHub
 
-This tutorial will show you how to deploy your web app to Google App Engine (on Google Cloud) via GitHub.
+This tutorial will show you how to **deploy** your web app to Google App Engine (on Google Cloud) via **GitHub**.
 
 ## When does that come in handy?
 
-This is useful if Cloud SDK does not work on your computer, so you can't deploy to Google Cloud using that SDK.
+This is useful if the **Cloud SDK does not work** on your computer, so you can't deploy to Google Cloud using that SDK.
 
-Instead, you can connect your Google Cloud Project to your GitHub repository and every time you will push your code to GitHub, you'll be able to deploy your project directly on Google Cloud (via the Cloud Console).
+Instead, you can **connect** your **Google Cloud** account to your **GitHub** account and every time you push your code to GitHub, you'll be able to deploy your project directly to Google Cloud.
 
 Let's see how this works step-by-step.
 
-> **Important**: If you'll use [this webapp2 template](https://github.com/smartninja/webapp2-no-gae-jinja) (or similar), make sure to change the variable `localhost` (in main.py) to `False` before tou deploy the app to Google Cloud (using this tutorial): `localhost = False`.
+> **Important**: If you'll use [this webapp2 template](https://github.com/smartninja/webapp2-no-gae-jinja) (or similar), make sure to change the variable `localhost` (in main.py) to `False` before you deploy the app to Google Cloud (using this tutorial): `localhost = False`.
 
 ## Step 1: Create Google Cloud project
 
-> Before you start, make sure you already have your GAE project on GitHub.
+> Before you start, make sure you already have your web app code on GitHub.
 
 First you need to create a new project directly on Google Cloud via Google Cloud Console:
 
